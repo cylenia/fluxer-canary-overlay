@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Open source voice and text chat client
+EAPI=8
+HOMEPAGE=https://fluxer.app
+INHERIT=desktop
+LICENSE=AGPL-3
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/tar_gz -> fluxer-canary-bin-9999.tar.gz
+_eclasses_=desktop	e447b5f77146d69797e9f03ff177f3f1
+_md5_=06b60c2705cfcd4e9e0976d09594dbbe
