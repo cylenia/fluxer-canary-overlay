@@ -17,7 +17,12 @@ DEPEND="${RDEPEND}"
 RESTRICT="mirror strip"
 QA_PREBUILT="/opt/fluxer-canary-bin"
 
-S="${WORKDIR}"/Fluxer-Canary-*-linux-x64
+S="${WORKDIR}"
+
+src_prepare() {
+	default
+	S="$(ls -d "${WORKDIR}"/Fluxer-Canary-*-linux-x64 || die "source dir not found")"
+}   
 
 src_install() {
 	insinto /opt/fluxer-canary-bin
