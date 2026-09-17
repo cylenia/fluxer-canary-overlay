@@ -26,7 +26,7 @@ src_prepare() {
 
 src_install() {
 	insinto /opt/fluxer-canary-bin
-	doins -r "${S}"/
+	cp -a "${S}"/. "${D}"/opt/fluxer-canary-bin/   
 
 	fperms 4755 /opt/fluxer-canary-bin/chrome-sandbox
 

@@ -8,4 +8,4 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://api.fluxer.app/dl/desktop/canary/linux/x64/latest/tar_gz -> fluxer-canary-bin-9999.tar.gz
 _eclasses_=desktop	e447b5f77146d69797e9f03ff177f3f1
-_md5_=8e8e5337f9e75be6cbf065297f68208a
+_md5_=ee64c90ae6a5b17f446693568cbbb9aa
