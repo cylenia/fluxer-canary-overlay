@@ -2,4 +2,4 @@
 
 Overlay for Fluxer canary desktop client.\
 Can't be bothered writing a proper README rn.\
-Skidded the ebuild from YourLocalMedic because I'm lazy.
+This is probably jank as fuck. Don't use this.\
